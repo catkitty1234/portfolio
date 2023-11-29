@@ -1,0 +1,57 @@
+html{
+   scroll-behavior: smooth;
+}
+
+header {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 2%;
+	background: linear-gradient(to left, pink, purple);
+}
+
+footer {
+
+}
+
+nav {
+	margin-top: 5%;
+}
+
+div {
+	padding: 3%;
+	margin-top: 5%;
+	background: linear-gradient(to right, red, blue);
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	background-clip: text;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Lobster', sans-serif;
+	font-size: 24px;
+}
+
+a {
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+/*	text-decoration: none;*/
+	color: #adadeb;
+
+}
+
+li {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
