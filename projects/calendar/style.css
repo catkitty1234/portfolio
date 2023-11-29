@@ -1,0 +1,33 @@
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 3px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+	}
+	#days {
+		background-color: black;
+		color: white;
+		font-size: 26px;
+		font-family: Arial;
+	}
+	
+	.oddweek {
+		background-color: lightgray;
+	}
+	
+	.weekend {
+		color: red;
+	}
+	p {
+		margin-top: -20px;
+	}
+	.about {
+		border: none;
+		font-size: 14px;
+	}
+	.ref {
+		text-decoration: none;
+		color: white;
+	}

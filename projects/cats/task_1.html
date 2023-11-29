@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Сайт о любимом животном</title>
+</head>
+
+
+
+<header>
+	<div id = "nav_block">
+	<nav>
+		<table style="	margin-left: 18%;">
+			<tr id = "navigation">
+				<td><a href="#info" class = "nav_elem">Информация о животном</a></td>
+				<td><a href="#gallery" class = "nav_elem">Галерея</a></td>
+				<td><a href="#quiz" class = "nav_elem">Опрос</a></td>
+			</tr>
+		</table>
+	</nav>
+	</div>
+</header>
+
+
+
+
+<body>
+
+	<section id = "info"> <!-- Информация о животном -->
+		<div class = "paragraph">
+			<h1> 
+			Кошки - мои любимые животные
+			<img src="cats/cats_intro.jpg" alt="милые котики" width="100">
+			</h1>
+
+			<h2><strong>Кошки - удивительные существа</strong>, которые покорили мое сердце с самого детства.<br> Мне всегда нравились их грация, независимость и нежность.<br>В этой статье я хочу рассказать о том, почему я считаю кошек своими любимыми животными. <br></h2>
+			<p>
+				<strong>Во-первых, кошки обладают невероятной красотой.</strong> Их мягкая шерсть, яркие глаза и разнообразные окрасы не могут оставить равнодушным никого. Каждый кот имеет свою неповторимую внешность, и это делает их еще более привлекательными. <br>
+
+				<strong>Во-вторых, кошки очень умны и хитры.</strong> Они умеют находить выход из самых сложных ситуаций и всегда знают, как добиться своего. Наблюдать за их поведением - одно удовольствие! <br>
+
+				<strong>В-третьих, кошки - прекрасные компаньоны.</strong> Они могут быть очень ласковыми и заботливыми, особенно когда чувствуют, что их хозяину плохо или он нуждается в поддержке. Кошки умеют успокаивать и поднимать настроение, что делает их незаменимыми друзьями. <br><br>
+
+				Также мне нравится, что кошки независимы и не требуют много внимания. Они могут прекрасно обходиться без хозяина, но при этом всегда рады его компании.<br><br>
+
+				Конечно, есть и <strong>минусы содержания кошки.</strong><br>
+
+				Например, они могут царапать мебель и портить обои, а также могут быть довольно упрямыми и непослушными. Но все эти недостатки компенсируются теми положительными эмоциями, которые кошки дарят своим хозяевам.
+			</p>
+			<h2>В заключение хочу сказать, что кошки - это не просто любимые животные, это настоящие друзья, которые всегда рядом и готовы помочь в трудную минуту. Я уверен, что каждый, кто завел кошку, знает, насколько они прекрасны и удивительны.</h2>
+		</div>
+
+	</section>
+		
+	<section id = "gallery"> <!-- Галерея -->
+		<div class = "paragraph">
+			<h1>Галерея милых котиков</h1>
+			<h2>Разговоры о котиках, это, конечно, замечательно, но ещё лучше посмотреть на пикчи милых котиков</h2>
+			<table><!-- Галерея котиков -->
+			<tr>
+					<img src="cats/cats1.jpg" alt="милые котики" class="gallery_img">
+					<img src="cats/cats2.jpg" alt="милые котики" class="gallery_img">
+					<img src="cats/cats3.jpg" alt="милые котики" class="gallery_img">
+			</tr>
+			<tr>
+					<img src="cats/cats4.jpg" alt="милые котики" class="gallery_img">
+					<img src="cats/cats5.jpg" alt="милые котики" class="gallery_img">
+					<img src="cats/cats6.jpg" alt="милые котики" class="gallery_img">
+			</tr>
+			<tr>
+					<img src="cats/cats7.jpg" alt="милые котики" class="gallery_img">
+					<img src="cats/cats8.jpg" alt="милые котики" class="gallery_img">
+					<img src="cats/cats9.jpg" alt="милые котики" class="gallery_img">
+					
+			</table>
+		</div>
+	</section>
+
+	<section id="quiz"> <!-- Опрос -->
+		<div class = "paragraph">
+			<h1>
+			Опрос
+			<img src="cats/cats_quiz.jpg" alt="милые котики" width="100">
+			</h1>
+			<h2>А теперь предлагаю вам пройти небольшой опрос на про котиков. :3</h2>
+			<button class="glow-on-hover" type="button" onclick="love()">Ты любишь котиков?</button> <br>
+			<button class="glow-on-hover" type="button" onclick="cats_are_the_best()">Коты — лучшие животные?</button>
+			<script src="script.js"></script>
+			<p>
+				Спасибо за внимание, а теперь просто получите привет от котика. 
+				<button class="glow-on-hover" type="button" onclick="hello()">Привет</button>
+			</p>
+			
+
+		</div>
+	</section>
+</body>
+
+
+</html>
